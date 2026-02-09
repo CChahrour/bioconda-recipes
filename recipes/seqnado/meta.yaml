@@ -29,8 +29,8 @@ requirements:
     - setuptools-scm >=6.2
     - pip
   run:
-    - numpy >=1.24,<=2.1.0
-    - pandas >=2.0,<=2.3.3
+    - numpy >=1.24, <=2.1.0
+    - pandas >=2.0, <=2.3.3
     - pandera
     - pulp <=2.9.0
     - pydantic
@@ -38,7 +38,7 @@ requirements:
     - pyyaml
     - seaborn
     - setuptools_scm
-    - snakemake >=9.12.0,<=9.14.5
+    - snakemake >=9.12.0, <=9.14.5
     - snakemake-executor-plugin-slurm
     - snakemake-wrapper-utils
     - tracknado
