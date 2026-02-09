@@ -9,9 +9,8 @@ source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/seqnado-{{ version }}.tar.gz
   sha256: b53bb50e8db341e9d1dabcc543d7077701f5de2576137f6aa70268e9818889f0
 
-
 build:
-  number: 0
+  number: 1
   noarch: python
   script_env:
     - SETUPTOOLS_SCM_PRETEND_VERSION={{ version }}
